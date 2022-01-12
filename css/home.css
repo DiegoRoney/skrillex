@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +23,7 @@
 }
 
 .navbar-logo img {
-    width: 90px;
+    width: 80px;
 
 }
 
@@ -34,7 +36,8 @@
 .navbar-links,
 a {
     color: rgb(212, 0, 255);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Oswald',
+        sans-serif;
     font-size: large;
     padding: 10px;
     display: flex;
@@ -65,7 +68,7 @@ ul {
 }
 
 .header-texto {
-    margin-top: 50px;
+    margin-top: 40px;
     text-shadow: 4px 4px black;
     display: flex;
     padding: 1px;
@@ -91,8 +94,8 @@ ul {
     padding: 10px;
     background-color: rgb(127, 0, 245);
     display: flex;
-    width: 350px;
-    height: 300px;
+    width: 300px;
+    height: 150px;
 }
 
 .teste {
