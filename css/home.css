@@ -118,7 +118,8 @@ ul {
 }
 
 .conteudo-principal-chamada {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Oswald',
+        sans-serif;
     font-size: 70px;
     color: #fff;
     padding: 15px;
