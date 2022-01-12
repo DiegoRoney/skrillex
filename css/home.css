@@ -73,14 +73,12 @@ ul {
     display: flex;
     padding: 1px;
     color: #fff;
-    font-size: 80px;
+    font-size: 70px;
     text-align: left;
-    font-family: Impact,
-        Haettenschweiler,
-        'Arial Narrow Bold',
+    font-family: 'Oswald',
         sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+
 
 
 }
@@ -88,8 +86,6 @@ ul {
 /** por aqui um css do texto em telas diferentes*/
 
 .header-formulario {
-
-
     display: flex;
     padding: 10px;
     background-color: rgb(127, 0, 245);
