@@ -16,14 +16,16 @@
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    z-index: 9;
+    z-index: 5;
     /*fara a barra ficar a cima*/
     transition: .5s;
     background-color: rgba(255, 255, 255, 0.055);
+
 }
 
 .navbar-logo img {
     width: 100px;
+
 
 }
 
@@ -35,6 +37,7 @@
 
 .navbar-links,
 a {
+
     color: rgb(212, 0, 255);
     font-family: 'Oswald',
         sans-serif;
@@ -47,6 +50,7 @@ a {
 
 .navbar-links a:hover {
     color: rgb(124, 0, 118);
+
 }
 
 ol,
@@ -117,7 +121,9 @@ form {
         Helvetica,
         sans-serif;
     color: #fff;
+
 }
+
 
 label {
 
