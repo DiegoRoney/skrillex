@@ -107,7 +107,7 @@ form {
     display: flex;
     width: 330px;
     padding: 10px;
-    background-color: rgba(127, 0, 245, 0.76);
+    background-color: rgba(87, 0, 88, 0.829);
     border-radius: 0px 10px 0px 10px;
     display: flex;
     flex-direction: column;
@@ -152,7 +152,7 @@ textarea:focus {
 
 .btn {
     align-items: center;
-    background: #f5f5f5;
+    background: #cc00ff;
     border-radius: 3px;
     border: 0;
     color: rgb(0, 0, 0);
@@ -164,8 +164,10 @@ textarea:focus {
 }
 
 .btn:hover {
-    background: #cc00ff;
+    background: #250030;
     transform: translateY(-2px);
+    color: #fff;
+    border-radius: 20px;
 }
 
 
