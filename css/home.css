@@ -207,12 +207,28 @@ textarea:focus {
 .conteudo-informativo {
     display: flex;
     flex-wrap: wrap;
-   
+    font-size: 22px;
     align-items: center;
     padding: 10px;
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.993);
+    font-family: 'Oswald',
+        sans-serif;
+}
+.conteudo-informativo-esports{
+    display: flex;
+    flex-wrap: nowrap;        
+    color: #fff;   
+    align-items: center;
+    padding: 10px;    
+    background-color: rgba(0, 0, 0, 0.993);
+}
+
+.conteudo-informativo-esports img{
+    width: 50%;
+    align-items: top;
+   
 }
 
 .conteudo-informativo-chamada{
