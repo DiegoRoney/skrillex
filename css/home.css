@@ -215,11 +215,12 @@ textarea:focus {
     background-color: rgba(0, 0, 0, 0.993);
     font-family: 'Oswald',
         sans-serif;
+        color: aliceblue;
 }
 .conteudo-informativo-esports{
     display: flex;
     flex-wrap: nowrap;        
-    color: #fff;   
+    color: rgb(255, 255, 255);   
     align-items: center;
     padding: 10px;    
     background-color: rgba(0, 0, 0, 0.993);
