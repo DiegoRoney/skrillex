@@ -205,7 +205,7 @@ textarea:focus {
 
 /**conteudo informativo*/
 .conteudo-informativo {
-    background: url(../img/sk-3.jpg) no-repeat center;
+    background: url(../img/sk-3.png) no-repeat center;
     background-color: rgba(0, 0, 0, 0.993);
     display: flex;
     justify-content: space-around;
