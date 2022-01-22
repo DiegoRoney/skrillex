@@ -205,14 +205,15 @@ textarea:focus {
 
 /**conteudo informativo*/
 .conteudo-informativo {
+    background: url(../img/banner-esports.jpg) no-repeat center;
+    
     display: flex;
     flex-wrap: wrap;
     font-size: 22px;
     align-items: center;
     padding: 10px;
     width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.993);
+    height: 100vh;   
     font-family: 'Oswald',
         sans-serif;
         color: aliceblue;
