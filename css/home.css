@@ -180,7 +180,7 @@ textarea:focus {
 /**/
 
 .conteudo-principal {
-    background: url(../img/sk-3.jpg) no-repeat center;
+    background: url(../img/banner-esports.png) no-repeat center;
     background-color: black;
     background-size: cover;
     width: 100%;
@@ -205,27 +205,27 @@ textarea:focus {
 
 /**conteudo informativo*/
 .conteudo-informativo {
-    background: url(../img/banner-esports.png) no-repeat center;
+    background: url(../img/sk-3.jpg) no-repeat center;
     background-color: rgba(0, 0, 0, 0.993);
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
+    gap: 5px;
     font-size: 22px;
     align-items: center;
     padding: 10px;
     width: 100%;
     height: 100vh;   
-    font-family: 'Oswald',
-        sans-serif;
-        color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.conteudo-informativo-esports{
-    background: url(../img/fundo.jpg) no-repeat center;
+.conteudo-informativo-esports{   
+  
     display: flex;
     flex-wrap: nowrap;        
     color: rgb(255, 255, 255);   
     align-items: center;
     padding: 10px;    
-   /* background-color: rgba(0, 0, 0, 0.993);*/
+   background-color: rgba(153, 0, 255, 0.753);
    
 }
 
@@ -235,10 +235,7 @@ textarea:focus {
    
 }
 
-.conteudo-informativo-chamada{
-    font-family: 'Oswald'
-        sans-serif;
-    
+.conteudo-informativo-chamada{    
     color: #fff;
     padding: 15px;   
     background-color: #000;
@@ -246,9 +243,7 @@ textarea:focus {
    
     
 }
-.conteudo-informativo-membros{
-    font-family: 'Oswald',
-        sans-serif;
+.conteudo-informativo-membros{   
     font-size: 30px;
     color: #fff;
     padding: 15px;
@@ -256,9 +251,7 @@ textarea:focus {
     background-color: rgba(0, 0, 0, 0.993);
     
 }
-.conteudo-informativo-conquistas{
-    font-family: 'Oswald',
-        sans-serif;
+.conteudo-informativo-conquistas{    
     font-size: 30px;
     color: #fff;
     padding: 15px;
@@ -267,9 +260,7 @@ textarea:focus {
     
     
 }
-.conteudo-informativo-fotos{
-    font-family: 'Oswald',
-        sans-serif;
+.conteudo-informativo-fotos{   
     font-size: 30px;
     color: #fff;
     padding: 15px;
@@ -293,6 +284,8 @@ textarea:focus {
     font-family: 'Oswald',
         sans-serif;
     font-size: 30px;    
+    
+    z-index: 100;
     
 }
 
