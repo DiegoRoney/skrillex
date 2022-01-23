@@ -294,6 +294,10 @@ textarea:focus {
     
     
 }
+.conteudo-informativo-fotos img{
+    width: 100%;
+    align-items: top;
+}
 
 /**conteudo informativo*/
 
