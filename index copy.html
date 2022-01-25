@@ -7,7 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/home.css" />
-    
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- scripts -->
+
 
     <link rel="icon" href="ico/sk-logo.ico?v=1.1">
     <link href="img/sk-logo.ico" rel="shortcut icon" type="image/x-icon" />
@@ -44,36 +47,40 @@
         </div>
     </nav>
 
-    <div class="header-section particles-js ">
-        <!-- particles-js -->
-        <!-- banner principal -->
-        <div class="header-texto">
-            Skrillex <br> E-Sports
+    <div id="particles-js">
+
+        <div class="header-section ">
+            <!-- particles-js -->
+            <!-- banner principal -->
+            <div class="header-texto">
+                Skrillex <br> E-Sports
+            </div>
+            <!-- banner principal -->
+
+            <!--formulario-->
+            <form action="" method="">
+                <div class="texto-form">
+                    <h1>Cadastre-se</h1>
+                    <p>E receba as novidades do Skrillex</p>
+                </div>
+
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" />
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" />
+                </div>
+
+                <div class="button">
+                    <button class="btn" type=""><strong>Cadastrar</strong></button>
+                </div>
+            </form>
+
+            <!--formulario-->
         </div>
-        <!-- banner principal -->
 
-        <!--formulario-->
-        <form action="" method="">
-            <div class="texto-form">
-                <h1>Cadastre-se</h1>
-                <p>E receba as novidades do Skrillex</p>
-            </div>
-
-            <div>
-                <label for="name">Nome:</label>
-                <input type="text" id="name" />
-            </div>
-            <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" />
-            </div>
-
-            <div class="button">
-                <button class="btn" type=""><strong>Cadastrar</strong></button>
-            </div>
-        </form>
-
-        <!--formulario-->
     </div>
 
     <!--! conteudo principal: aplicar movimento apenas na img -->
@@ -181,11 +188,9 @@
         </div>
 
     </div>
-
-    <!-- scripts -->
-
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+
 
 </body>
 
