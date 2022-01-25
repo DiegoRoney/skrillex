@@ -304,6 +304,7 @@ textarea:focus {
 /**footer*/
 
 .footer-section{
+    
     width: 100%;
     height: 100px;
     background-color: rgb(29, 29, 29);
@@ -314,7 +315,7 @@ textarea:focus {
         sans-serif;
     font-size: 30px;    
     
-    z-index: 100;
+    
     
 }
 
@@ -326,7 +327,11 @@ textarea:focus {
 }
 
 /**footer*/
-
+#particles-js{
+    width: 100%;
+    height: 100vh;  
+  
+  }
 
 /** animaçoes*/
 
