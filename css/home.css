@@ -9,7 +9,7 @@
 .navbar {
     color: aliceblue;
     width: 100%;
-    height: 80px;
+    height: 70px;
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@
     /*fara a barra ficar a cima*/
     transition: .5s;
     background-color: rgba(255, 255, 255, 0.055);
-
+    backdrop-filter: blur(7px);
 }
 
 .navbar-logo img {
@@ -49,7 +49,7 @@ a {
 }
 
 .navbar-links a:hover {
-    color: rgb(124, 0, 118);
+    color: rgb(212, 132, 208);
 
 }
 
