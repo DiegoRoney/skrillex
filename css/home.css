@@ -49,7 +49,7 @@ a {
 }
 
 .navbar-links a:hover {
-    color: rgb(212, 132, 208);
+    color: #03e9f4;
 
 }
 
@@ -98,14 +98,9 @@ ul {
 
 }
 
-form,
-fieldset {
-    border: 0;
-    padding: 0;
-    margin: 0;
-}
 
-form {
+
+/* form {
     display: flex;
     padding: 20px;
     display: flex;
@@ -122,59 +117,20 @@ form {
         sans-serif;
     color: #fff;
 
-}
+} */
 
 
-label {
+/* label {
 
     display: inline-block;
     text-align: right;
-}
+} */
 
-form div+div {
+/* form div+div {
     margin-top: 1em;
-}
-
-input {
-
-    font: 1em sans-serif;
+} */
 
 
-    width: 300px;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-
-
-    border: 1px solid #999;
-    background-color: #0000002d;
-    color: rgb(255, 187, 0);
-}
-
-input:focus,
-textarea:focus {
-
-    border-color: #000;
-}
-
-.btn {
-    align-items: center;
-    background: #cc00ff;
-    border-radius: 3px;
-    border: 0;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    display: flex;
-    font-size: 16px;
-    padding: 15px 45px;
-    transition: .2s;
-}
-
-.btn:hover {
-    background: #250030;
-    transform: translateY(-2px);
-    color: #fff;
-    border-radius: 20px;
-}
 
 
 /**/
