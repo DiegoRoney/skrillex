@@ -74,8 +74,7 @@ ul {
 }
 
 .header-texto {
-    margin-top: 40px;
-    text-shadow: 4px 4px black;
+    margin-top: 40px;    
     display: flex;
     padding: 1px;
     color: #fff;
@@ -84,7 +83,21 @@ ul {
     font-family: 'Oswald',
         sans-serif;
     text-transform: uppercase;
+    animation: neon 5s infinite;
 
+}
+
+@keyframes neon {
+    0%, 39%, 41%, 59%, 61%, 100% {
+       text-shadow: 
+       white 0 0 12px,
+       rgb(155, 0, 194) 0 0 24px,
+       rgb(187, 6, 233) 0 0 36px;
+    }
+    
+    40%, 60% {
+        text-shadow: none;
+    }
 }
 
 /***/
