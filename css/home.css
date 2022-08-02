@@ -257,8 +257,8 @@ ul {
     align-items: top;
 }
 .conteudo-informativo-fotos{ 
-    display: flex;
-    
+    display: flex;  
+    width: 100%;  
     justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
@@ -385,3 +385,4 @@ ul {
     }
 }
 /** animaçoes*/
+
