@@ -258,6 +258,8 @@ ul {
 }
 .conteudo-informativo-fotos{ 
     display: flex;
+    
+    justify-content: center;
     gap: 10px;
     flex-wrap: wrap;
     font-size: 30px;
