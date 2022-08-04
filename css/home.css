@@ -243,7 +243,8 @@ ul {
 .card-membros span{
     color: #03e9f4;
 }
-.conteudo-informativo-conquistas{    
+.conteudo-informativo-conquistas{  
+    text-align: center;  
     font-size: 30px;
     color: #fff;
     padding: 15px;
